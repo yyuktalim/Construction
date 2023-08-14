@@ -1,0 +1,3055 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+html{
+	overflow-x: hidden;
+	font-size: 63%;
+}
+
+
+/* responsive code start*/
+
+@media(max-width: 998px){
+	html{
+		font-size: 55.5%;
+	}
+}
+
+
+@media(max-width: 768px){
+	html{
+		font-size: 45.5%;
+	}
+}
+/* responsive code end*/
+
+
+
+
+
+/*header css start*/
+.header{
+	position: sticky;
+	z-index: 100000;
+    top: 0;
+    background: #ffffffe6;
+}
+
+.header .row{}
+
+.header .col-md-4{
+	padding: 0;
+}
+
+.col-md-4 .title{}
+
+.col-md-4 .title h4{
+	font-family: Poppins,sans-serif;
+	margin-bottom: 0;
+	font-weight: 600;
+	padding-top: 1.9rem;
+	padding-bottom: 1.9rem;
+	padding-left: 3.7rem;
+	font-size: 2.3rem;
+}
+
+
+.col-md-8{
+	padding: 0;
+}
+
+.col-md-8 .header-nav{}
+
+.col-md-8 .header-nav ul{
+	padding: 1.5rem 3.5rem;
+	text-align: right;
+	margin-bottom: 0rem;
+}
+
+.col-md-8 .header-nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: .7rem;
+	padding-left: .5rem;
+}
+
+.col-md-8 .header-nav ul li a{
+	color: black;
+	text-decoration: none;
+	padding: .8rem;
+	font-family: Poppins,sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding-left: .5rem;
+}
+
+.col-md-8 .header-nav ul li a:hover{
+	color: #3e5159d4;
+}
+
+.col-md-8 .header-nav ul li .fa{
+	font-size: 1.8rem;
+}
+
+.col-md-8 .header-nav ul li .fa:hover{
+	color: black;
+}
+/*header css end*/
+
+
+
+
+/*header-content start*/
+.header-content{
+	background: url(../images/gallery/header-content.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ 
+.header-content .header-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.header-content .container{
+	width: 70%;
+}
+
+.header-content .row{
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+
+.col-md-12{}
+
+.col-md-12 .content{
+	text-align: center;
+	color: white;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+.col-md-12 .content h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: rem;
+	position: relative;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+} 
+
+.col-md-12 .content h1::before{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	left: 47%;
+	top: 0%;
+	background: #ffb400;
+}
+
+.col-md-12 .content p{
+    font-size: 2.3rem;
+}
+
+.col-md-12 .content .view-butn{
+	padding-top: 5.0rem;
+}
+
+.col-md-12 .content .view-butn a{
+	padding: 2.0rem 3.0rem;
+	background: #ffb400;
+	color: white;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: .2rem;
+} 
+/*header-content end*/
+
+
+
+
+
+/*service-works start*/
+.service-works{
+	padding-top: 6.0rem;
+	padding-bottom: 5.0rem;
+}
+
+.service-works .row{
+	padding: 2rem 9rem;
+}
+
+.service-works .col-md-4{
+	padding: 0;
+}
+
+.service-works .col-md-4 .services{
+	display: inline-flex;
+	padding-left: 7.0rem;
+}
+
+.service-works .col-md-4 .services img{
+	width: 7.0rem;
+	height: 6.5rem;
+}
+
+.col-md-4 .services .content{
+	padding: 0rem 1.5rem;
+}
+
+.col-md-4 .services .content h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-bottom: 1.4rem;
+}
+
+.col-md-4 .services .content p{
+	color: grey;
+	line-height: 3rem;
+	font-size: 1.7rem;
+}
+/*service-works end*/
+
+
+
+
+
+/*consult css start*/
+.consult{}
+
+.consult .row{}
+
+.consult .row .col-md-4{
+	background: #ffb400;
+	padding: 7rem 0;
+}
+
+.consult .col-md-4 .consult-services{
+	display: inline-flex;
+	padding: 0rem 5.5rem;
+	padding-bottom: 3rem;
+}
+
+.consult .col-md-4 .consult-services .fa{
+	font-size: 5rem;
+	color: white;
+}
+
+.consult .col-md-4 .consult-services .text{
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.consult .col-md-4 .consult-services .text h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-bottom: 1.4rem;
+    line-height: 2.5rem;
+}
+
+.consult .col-md-4 .consult-services .text p{
+	color: white;
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
+
+
+.consult .row .col-md-8{
+	background: #f5f5f5;
+}
+
+.consult .col-md-8 .consult-content{
+	padding: 6.5rem 9rem;
+}
+
+.consult .col-md-8 .consult-content h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 4rem;
+	padding: 3.5rem 0;
+	position: relative;
+}
+
+.consult .col-md-8 .consult-content h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ffb400;
+}
+
+.consult .col-md-8 .consult-content .text{
+	display: inline-flex;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.consult .col-md-8 .consult-content .text p{
+	color: grey;
+	line-height: 3rem;
+	font-size: 1.7rem;
+	padding-right: 6rem;
+}
+
+.consult .col-md-8 .consult-content .text .p-one{
+	margin-right: 2rem;
+}
+
+
+
+.consult .col-md-8 .free-consult{
+	background: #212121f2;
+}
+
+.consult .col-md-8 .free-consult .free-consult-txt{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem;
+}
+
+.consult .col-md-8 .free-consult .free-consult-txt h2{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	color: white;
+	font-size: 3rem;
+}
+
+.consult .col-md-8 .free-consult .online-butn{
+}
+
+.consult .col-md-8 .free-consult .online-butn a{
+	padding: 2rem 3rem;
+	border: .3rem solid #ffb400;
+	color: #ffb400;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: .2rem;
+}
+
+.consult .col-md-8 .free-consult .online-butn a:hover{
+	background: #ffb400;
+	color: white;
+}
+/*consult css end*/
+
+
+
+
+/*about css start*/
+.about{
+	background: url(../images/gallery/about.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about .about-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.about .about-bg .container{
+	width: 70%;
+}
+
+.about .about-bg .container .row{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+/*about css end*/
+
+
+
+
+
+/*testimonials css start*/
+.testimonials{
+	background: #f5f5f5;
+	padding-top: 5rem;
+	padding-bottom: 8rem;
+}
+
+.testimonials .container{
+	width: 80%;
+}
+
+.testimonials .row{}
+
+.testimonials .col-md-12{}
+
+.testimonials .col-md-12 .title{
+	padding: 4rem;
+}
+
+.testimonials .col-md-12 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	position: relative;
+	text-align: center;
+	padding: 3.5rem 0;
+	font-size: 4rem;
+}
+
+.testimonials .col-md-12 .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 47%;
+	background: #ffb400;
+}
+
+.testimonials .col-md-4{
+	padding: 2rem;
+}
+
+.testimonials .col-md-4 .testimony{
+	background: white;
+	padding: 5rem 3rem;
+	text-align: center;
+}
+
+.testimonials .col-md-4 .testimony .fa{
+	color: #ff9800;
+	padding: .5rem;
+	font-size: 2.5rem; 
+}
+
+.testimonials .col-md-4 .testimony-text{
+    margin: 1rem 0;
+}
+
+.testimonials .col-md-4 .testimony-text p{
+	color: grey;
+	line-height: 3rem;
+	font-size: 1.7rem;
+}
+
+.testimonials .col-md-4 .testimony-text h6{
+	color: grey;
+	font-size: 1.7rem;
+	margin: 4rem 0;
+	font-weight: 700;
+}
+
+
+.testimonials .col-md-12 .testimony-img{
+	text-align: center;
+	padding-top: 7rem;
+}
+
+.testimonials .col-md-12 .testimony-img img{
+	padding: .7rem;
+}
+/*testimonials css end*/
+
+
+
+
+
+/*contact start*/
+.contact{}
+
+.contact .row{}
+
+.contact .row .col-md-6{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.contact .row .col-one{
+	background: #ffb400;
+}
+
+.contact .row .col-two{
+	background: #f5f5f5;
+}
+
+
+.contact .col-md-6 .title{
+	padding: 6rem 8rem;
+}
+
+.contact .col-md-6 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 4rem;
+	position: relative;
+	padding: 3.5rem 0;
+}
+
+.contact .col-md-6 .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: black;
+}
+
+
+.contact .form-content{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.contact .form-content form{}
+
+.contact .form-content form .filling .fill-up{
+}
+
+.contact .form-content form .fill-up{
+	padding: .5rem;
+	width: 100%;
+}
+
+.contact .form-content form .fill-up input{
+	height: 6rem;
+	border: none;
+	width: 100%;
+}
+
+.contact .form-content form .fill-up input[type="text"]{
+	padding-left: 1rem;
+	font-size: 1.5rem;
+}
+
+.contact .form-content form .fill-up textarea{
+	padding: .7rem;
+	font-size: 1.5rem;
+	margin-top: .5rem;
+	border: none;
+	width: 100%;
+}
+
+.contact .title .send-butn{
+	text-align: right;
+	margin-right: -1rem;
+	margin-bottom: 2rem;
+}
+
+.contact .title .send-butn a{
+	text-decoration: none;
+	color: white;
+	background: transparent;
+	border: .5rem solid white;
+	padding: .8rem 2.5rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+}
+
+.contact .title .send-butn a:hover{
+    background: #0000000d;
+    border: .5rem solid transparent;
+    color: #ffffff;
+}
+
+
+.contact .contact-social-links{
+	background: #212121f2;
+	text-align: center;
+	padding: 3.5rem 0rem;
+}
+
+.contact .contact-social-links ul{
+	margin-bottom: 0;
+}
+
+.contact .contact-social-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 1rem;
+}
+
+.contact .contact-social-links ul li a{
+	text-decoration: none;
+	padding: 1.5rem;
+}
+
+.contact .contact-social-links ul li a .fa{
+	font-size: 2rem;
+	color: white;
+}
+
+.contact .contact-text{
+	padding: 9rem;
+}
+
+.contact .contact-text ul{}
+
+.contact .contact-text ul li{
+	list-style: none;
+	color: #616161;
+	position: relative;
+}
+
+.contact .contact-text ul li .fa{
+	position: absolute;
+	top:0 ;
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+.contact .contact-text ul li .text{
+	padding: .5rem 5rem;
+}
+
+.contact .contact-text ul li .text p{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+/*contact end*/
+
+
+
+
+
+/*footer css start*/
+.footer{
+	background: #1f1f1f;
+}
+
+.footer .container{
+	width: 85%;
+}
+
+.footer .row{}
+
+.footer .row .col-md-6{
+}
+
+.footer .row .col-md-6 .footer-text{}
+
+.footer .row .col-md-6 .footer-text p{
+	color: #666;
+	font-size: 1.6rem;
+	margin-bottom: 0;
+	padding-top: 1.7rem;
+}
+
+.footer .row .col-md-6 .footer-social-links{}
+
+.footer .row .col-md-6 .footer-social-links ul{
+	text-align: right;
+	padding-top: .8rem;
+}
+
+.footer .row .col-md-6 .footer-social-links ul li{
+	display: inline-block;
+	list-style: none;
+	padding: .5rem;
+}
+
+.footer .row .col-md-6 .footer-social-links ul li a{
+	text-decoration: none;
+	color: #666;
+	padding: .5rem;
+	font-size: 2.5rem;
+}
+
+.footer .row .col-md-6 .footer-social-links ul li .fa{}
+/*footer css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ABOUT CSS START*/
+
+
+/*about-content css start*/
+.about-content{
+	background: url(../images/gallery/about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-content .about-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.about-content .row{
+	padding: 5rem 0;
+}
+
+.about-content .row .col-md-8{}
+
+.about-content .col-md-8 .title{
+	color: white;
+	padding: 7rem 6rem;
+}
+
+.about-content .col-md-8 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding: 3rem;
+} 
+
+.about-content .col-md-8 .title h1::before{
+	content: "";
+	padding: 10rem .5rem;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	background: #ffb400;
+}
+
+.about-content .col-md-8 .title p{
+	font-size: 2.3rem;
+	margin-bottom: 2.5rem;
+}
+
+.about-content .col-md-8 .view-butn{
+	padding-top: 4rem;
+}
+
+.about-content .col-md-8 .view-butn a{
+	padding: 2rem 3rem;
+	background: #ffb400;
+	color: white;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: .2rem;
+}
+
+
+.about-content .col-md-4{
+	padding: 8rem 5rem;
+}
+
+.about-content .col-md-4 .title{
+	padding: 1.5rem 0rem;
+}
+
+.about-content .col-md-4 .title h3{
+	color: #ffb400;
+	font-weight: 800;
+	font-size: 3rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.about-content .col-md-4 .what-we-do{
+	display: inline-flex;
+	padding: 1rem 0;
+}
+
+.about-content .col-md-4 .what-we-do img{
+	width: 7rem;
+	height: 6.5rem;
+}
+
+
+.about-content .col-md-4 .what-we-do .content{
+	color: white;
+	padding: 0;
+	padding-left: 1rem;
+}
+
+.about-content .col-md-4 .what-we-do .content h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-bottom: 1.4rem;
+}
+
+.about-content .col-md-4 .what-we-do .content p{
+	color: white;
+	line-height: 3rem;
+	font-size: 1.7rem;
+}
+/*about-content css end*/
+
+
+
+
+/*about-intro css start*/
+.about-intro{
+	padding: 8rem 0rem;
+}
+
+.about-intro .container{}
+
+.about-intro .row{}
+
+.about-intro .col-md-12{}
+
+.about-intro .col-md-12 .title{}
+
+.about-intro .col-md-12 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	position: relative;
+	text-align: center;
+	font-size: 4rem;
+	padding: 3.5rem 0;
+}
+
+.about-intro .col-md-12 .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 47%;
+	background: #ffb400;
+}
+
+.about-intro .col-md-6{
+	padding: 4rem;
+}
+
+.about-intro .col-md-6 .content{}
+
+.about-intro .col-md-6 .content p{
+	color: grey;
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
+/*about-intro css end*/
+
+
+
+
+/*the-best css start*/
+.the-best{
+	background: #f5f5f5;
+}
+
+.the-best .row{}
+
+.the-best .col-md-4{
+	padding: 5.5rem;
+}
+
+.the-best .col-md-4 .title{
+	padding: 3rem 0rem;
+}
+
+.the-best .col-md-4 .title h2{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 3rem;
+}
+
+.the-best .col-md-4 .the-best-services{
+	display: inline-flex;
+    padding-bottom: 3rem;
+}
+
+.the-best .col-md-4 .the-best-services .fa{
+	font-size: 5rem;
+	color: #ffb400;
+}
+
+.the-best .col-md-4 .the-best-services .text{
+	padding: 0rem 1.5rem;
+}
+
+.the-best .col-md-4 .the-best-services .text h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-bottom: 1.4rem;
+    line-height: 2.5rem;
+}
+
+.the-best .col-md-4 .the-best-services .text p{
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: grey;
+}
+
+.the-best .col-md-4 .free-butn{
+	text-align: right;
+	padding-right: 2rem;
+}
+
+.the-best .col-md-4 .free-butn a{
+	text-decoration: none;
+	color: #ffb400;
+	background: transparent;
+	border: .5rem solid #ffb400;
+	padding: 1rem 1.5rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;
+}
+
+.the-best .col-md-4 .free-butn a:hover{
+	color: white;
+	background: #ffb400;
+	border: .5rem solid #ffb400;
+}
+
+
+.the-best .col-md-8{
+	padding: 0;
+	padding-bottom: 11rem;
+}
+
+.the-best .col-md-8 img{
+	width: 100%;
+}
+
+.the-best .col-md-8 .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-best .col-md-8 .content-one{
+	box-shadow: 0rem 1.5rem 1.0rem .2rem #8080801f;
+}
+
+.the-best .col-md-8 .the-best-number{
+	width: 50%;
+	height: 15rem;
+	text-align: center;
+	padding: 5rem;
+}
+
+.the-best .col-md-8 .the-best-number-one{
+	background: #ffb400;
+	padding: 3.3rem;
+}
+
+.the-best .col-md-8 .the-best-number-two{
+	background: #212121f2;
+	color: white;
+	padding: 3.3rem;
+}
+
+.the-best .col-md-8 .the-best-number h2{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	margin: 1rem;
+	font-size: 4rem;
+	line-height: 4.5rem;
+}
+
+.the-best .col-md-8 .the-best-number p{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+}
+/*the-best css end*/
+
+
+
+
+
+
+
+
+
+/* about-last-content css start*/
+.about-last-content{}
+
+.about-last-content .container{
+	width: 60%;
+}
+
+.about-last-content .row{}
+
+.about-last-content .col-md-12{
+	text-align: center;
+	padding: 7rem 0rem;
+}
+
+.about-last-content .col-md-12 h3{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	margin-bottom: 0;
+	font-weight: 600;
+	font-size: 3rem;
+	line-height: 4.5rem;
+	padding: 4rem;
+}
+
+.about-last-content .col-md-12 p{
+	font-weight: 600;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.3rem;
+	color: grey;
+	letter-spacing: .2rem;
+}
+/* about-last-content css end*/
+
+
+/*ABOUT CSS END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACT CSS START*/
+
+/*contact-content css start*/
+.contact-content{
+	background: url(../images/gallery/contact-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contact-content .contact-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.contact-content .container{}
+
+.contact-content .row{
+}
+
+.contact-content .col-md-8{
+}
+
+.contact-content .col-md-8 .title{
+	color: white;
+	padding: 9rem 10.7rem;
+}
+
+.contact-content .col-md-8 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding: 4rem;
+	margin-top: 1rem;
+} 
+
+.contact-content .col-md-8 .title h1::before{
+	content: "";
+	padding: 5rem .5rem;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	background: #ffb400;
+}
+
+.contact-content .col-md-8 .title p{
+	font-size: 2.3rem;
+}
+
+.contact-content .col-md-8 .view-butn{
+	padding-top: 6rem;
+}
+
+.contact-content .col-md-8 .view-butn a{
+	padding: 2rem 3rem;
+	background: #ffb400;
+	color: white;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: .2rem;
+}
+
+.contact-content .col-md-4{
+	background: #ffb400;
+	/*padding: 3em 0;*/
+}
+
+.contact-content .col-md-4 .title{
+	padding: 1rem 3rem;
+	padding-right: 11rem;
+}
+
+.contact-content .col-md-4 .title h3{
+	font-weight: 800;
+	font-size: 3rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	padding: 2rem 0;
+	padding-top: 8rem;
+}
+
+
+.contact-content .col-md-4 .content{
+	display: inline-flex;
+	padding: 1.5rem 0;
+}
+
+.contact-content .col-md-4 .content .fa{
+	color: white;
+	font-size: 5.5rem;
+}
+
+
+.contact-content .col-md-4 .content-txt{
+	padding: 0rem 1.5rem;
+}
+
+.contact-content .col-md-4 .content-txt h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.contact-content .col-md-4 .content-txt p{
+	color: white;
+	line-height: 3rem;
+	font-size: 1.7rem;
+}
+
+.contact-content .col-md-4 .social-links{}
+
+.contact-content .col-md-4 .social-links ul{
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.contact-content .col-md-4 .social-links ul li{
+	display: inline-block;
+	padding: 1rem;
+}
+
+.contact-content .col-md-4 .social-links ul li a{
+	color: white;
+	padding: 1rem;
+	font-size: 2rem;
+}
+/*contact-content css end*/
+
+
+
+
+/*contact-online css start*/
+.contact-online{
+}
+
+.contact-online .row{}
+
+.contact-online .col-md-12{}
+
+.contact-online .col-md-12 .contact-online-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4rem;
+}
+
+.contact-online .col-md-12 .contact-content-txt{}
+
+.contact-online .col-md-12 .contact-content-txt h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 4rem;
+	letter-spacing: .1rem;
+	color: #ffb400;
+}
+
+.contact-online .col-md-12 .contact-content-txt h3{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 700;
+	padding: 1rem 0;
+	font-size: 3rem;
+}
+
+.contact-online .col-md-12 .online-butn{}
+
+.contact-online .col-md-12 .online-butn a{
+	text-decoration: none;
+	color: #ffb400;
+	background: transparent;
+	border: .5rem solid #ffb400;
+	padding: 2rem 1.5rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;
+}
+
+.contact-online .col-md-12 .online-butn a:hover{
+	color: white;
+	background: #ffb400;
+	border: .5rem solid #ffb400;
+}
+/*contact-online css end*/
+
+
+
+
+
+
+/* get-in-touch css start*/
+.get-in-touch{
+	/*background: #f5f5f5;*/
+	background: linear-gradient(180deg,#80808059,#f5f5f5);
+	padding: 3rem 0;
+}
+
+.get-in-touch .row{}
+
+.get-in-touch .col-md-6{}
+
+.get-in-touch .col-md-6 .content{
+	padding: 2.5rem;
+}
+
+.get-in-touch .col-md-6 .title{}
+
+.get-in-touch .col-md-6 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 4rem;
+	position: relative;
+	padding: 3.5rem 0;
+}
+
+.get-in-touch .col-md-6 .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ffb400;;
+}
+
+.get-in-touch .col-md-6 .form-filling{}
+
+.get-in-touch .col-md-6 .form-filling .filling{
+	padding: 1rem 0;
+}
+
+.get-in-touch .col-md-6 .form-filling input{
+	width: 100%;
+	height: 4rem;
+	background: white;
+	border: none;
+	font-size: 1.5rem;
+}
+
+.get-in-touch .col-md-6 .form-filling input[type="text"]{
+	padding-left: 1rem;
+}
+
+.get-in-touch .col-md-6 .form-filling textarea{
+	width: 100%;
+	background: white;
+	border: none;
+	font-size: 1.5rem;
+	padding-left: 1rem;
+}
+
+.get-in-touch .col-md-6 .send-butn{
+	padding-top: 1.5rem;
+	text-align: right;
+}
+
+.get-in-touch .col-md-6 .send-butn a{
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    border: .5rem solid black;
+    padding: .7rem 2rem;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
+/* get-in-touch css end*/
+
+
+
+
+
+
+/*contact-map css start*/
+.contact-map{}
+
+.contact-map .row{}
+
+.contact-map .col-md-12{}
+
+.contact-map .col-md-12 .map{}
+
+.contact-map .col-md-12 .map p{
+	margin-bottom: 0;
+}
+
+.contact-map .col-md-12 .map iframe{
+	width: 100%;
+	height: 45rem;
+}
+/*contact-map css end*/
+
+/*CONTACT CSS END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICES CSS START*/
+
+/*services-content css start*/
+.services-content{
+	background: url(../images/gallery/services-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.services-content .services-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.services-content .row{
+	padding: 5.0rem 0;
+}
+
+.services-content .row .col-md-8{}
+
+.services-content .col-md-8 .title{
+	color: white;
+	padding: 7.0rem 6.0rem;
+}
+
+.services-content .col-md-8 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding: 2.7rem;
+} 
+
+.services-content .col-md-8 .title h1::before{
+	content: "";
+	padding: 7.0rem .5rem;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	background: #ffb400;
+}
+
+.services-content .col-md-8 .title p{
+	font-size: 2.3rem;
+}
+
+.services-content .col-md-8 .view-butn{
+	padding-top: 4.0rem;
+}
+
+.services-content .col-md-8 .view-butn a{
+	padding: 2.0rem 3.0rem;
+	background: #ffb400;
+	color: white;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: .2rem;
+}
+
+
+.services-content .col-md-4{
+	padding: 8.0rem 5.0rem;
+}
+
+.services-content .col-md-4 .title{
+	padding: 1.5rem 0rem;
+}
+
+.services-content .col-md-4 .title h3{
+	color: #ffb400;
+	font-size: 3rem;
+	font-weight: 800;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.services-content .col-md-4 .what-we-do{
+	display: inline-flex;
+	padding: 1.0rem 0;
+}
+
+.services-content .col-md-4 .what-we-do img{
+	width: 7.0rem;
+	height: 6.5rem;
+}
+
+.services-content .col-md-4 .what-we-do .content{
+	color: white;
+	padding: 0;
+	padding-left: 1.0rem;
+}
+
+.services-content .col-md-4 .what-we-do .content h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 1.7rem;
+	margin-bottom: 1.4rem;
+}
+
+.services-content .col-md-4 .what-we-do .content p{
+	color: white;
+	font-size: 1.7rem;
+	line-height: 3.0rem;
+}
+/*services-content css end*/
+
+
+
+
+
+/*services-quote css start*/
+.services-quote{
+	box-shadow: 0rem 1.5rem 1.0rem .2rem #8080801f;
+	z-index: 2;
+}
+
+.services-quote .row{
+}
+
+.services-quote .col-md-6{
+}
+
+.services-quote .col-md-6 .services-quote-content{
+	padding: 5rem;
+}
+
+.services-quote .col-md-6 .contact-content-txt{}
+
+.services-quote .col-md-6 .contact-content-txt h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 4rem;
+}
+
+.services-quote .col-md-6 .online-butn{
+	text-align: right;
+	padding: 5rem;
+}
+
+.services-quote .col-md-6 .online-butn a{
+	text-decoration: none;
+	color: #ffb400;
+	background: transparent;
+	border: .5rem solid #ffb400;
+	padding: 1.5rem 2.0rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;
+}
+
+.services-quote .col-md-6 .online-butn a:hover{
+	color: white;
+	background: #ffb400;
+	border: .5rem solid #ffb400;
+}
+/*services-quote css end*/
+
+
+
+
+
+
+/*services-works css start*/
+.services-works{}
+
+.services-works .row{}
+
+.services-works .col-md-2{
+}
+
+.services-works .col-md-2-two{
+	background: #f5f5f5;
+}
+
+.services-works .col-md-10{
+	background: #f5f5f5;
+	padding: 0;
+}
+
+.services-works .col-md-10-two{
+	background: white;
+	padding: 0;
+}
+
+.services-works .col-md-10 .services-works-content{
+	padding: 7rem 9rem;
+}
+
+.services-works .col-md-10 .services-works-content h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 4rem;
+	padding: 3.5rem 0;
+	position: relative;
+}
+
+.services-works .col-md-10 .services-works-content h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ffb400;
+}
+
+.services-works .col-md-10 .services-works-content p{
+	color: grey;
+	line-height: 3.0rem;
+	font-size: 1.7rem;
+	margin-top: 3rem;
+}
+
+.services-works .col-md-10 .services-works-content ul{
+	display: inline-block;
+	padding: 2.0rem;
+	font-size: 1.7rem;
+}
+
+.services-works .col-md-10 .services-works-content ul li{
+	color: grey;
+	line-height: 3.0rem;
+	padding-right: 6.0rem;
+}
+
+.services-works .col-md-10 .services-works-option{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-works .col-md-10 .services-works-option .butn{
+	width: 50%;
+	height: 14rem;
+	text-align: center;
+	padding: 6.5rem;
+}
+
+.services-works .col-md-10 .services-works-option .butn a{
+	text-decoration: none;
+	color: white;
+	background: transparent;
+	border: .5rem solid white;
+	padding: 1.5rem 2.0rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;
+}
+
+.services-works .col-md-10 .services-works-option .get-butn{
+	background: #ffb400;
+}
+
+.services-works .col-md-10 .services-works-option .get-butn a{
+}
+
+.services-works .col-md-10 .services-works-option .learn-butn{
+	background: #212121f2;
+	color: white;
+}
+
+.services-works .col-md-10 .services-works-option .learn-butn a{}
+/*services-works css end*/
+
+
+
+
+
+
+/* services-latest-projects css start*/
+.services-latest-projects{
+	padding: 10rem 0;
+}
+
+.services-latest-projects .container{
+	width: 80%;
+}
+
+.services-latest-projects .row{}
+
+.services-latest-projects .col-md-12{}
+
+.services-latest-projects .col-md-12 .title{}
+
+.services-latest-projects .col-md-12 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	position: relative;
+	text-align: center;
+	font-size: 4rem;
+	padding: 3.5rem 0;
+}
+
+.services-latest-projects .col-md-12 .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 47%;
+	background: #ffb400;
+}
+
+.services-latest-projects .col-md-4{}
+
+.services-latest-projects .col-md-4 .content{
+	padding: 3.5rem 0;
+}
+
+.services-latest-projects .col-md-4 .content img{
+	width: 100%;
+	box-shadow: 0rem 0.5rem 1rem 0.1rem #7575758c;
+}
+
+.services-latest-projects .col-md-4 .content-txt{
+	border: .1rem solid #dfdfdf;
+	padding: 3.5rem;
+	margin: 2rem 0;
+}
+
+.services-latest-projects .col-md-4 .content-txt h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 700;
+	font-size: 1.7rem;
+}
+
+.services-latest-projects .col-md-4 .content-txt p{
+	margin: 2rem 0;
+	color: grey;
+	line-height: 3.0rem;
+	font-size: 1.7rem;
+}
+
+.services-latest-projects .col-md-4 .project-butn{
+    margin: 2.5rem 0;
+}
+
+.services-latest-projects .col-md-4 .project-butn a{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	text-decoration: none;
+	padding: .8rem 2rem;
+	background: transparent;
+	border: .3rem solid #dfdfdf;
+	color: #666666;
+	font-size: 1.2rem;
+	font-weight: .600;
+	letter-spacing: .1rem;
+}
+
+.services-latest-projects .col-md-12 .view-all-butn{
+	text-align: center;
+	margin: 4rem;
+}
+
+.services-latest-projects .col-md-12 .view-all-butn a{
+	text-decoration: none;
+	color: black;
+	background: transparent;
+	border: .5rem solid black;
+	padding: 1.5rem 2.0rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;	
+}
+
+.services-latest-projects .col-md-12 .view-all-butn a:hover{
+	color: white;
+	background: black;	
+}
+/* services-latest-projects css end*/
+
+/* SERVICES CSS END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICE CSS START*/
+
+/*service-content css start*/
+.service-content{
+	background: url(../images/gallery/service-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.service-content .service-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.service-content .row{
+	padding: 5rem 0;
+}
+
+.service-content .row .col-md-8{}
+
+.service-content .col-md-8 .title{
+	color: white;
+	padding: 7rem 6rem;
+}
+
+.service-content .col-md-8 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding: 3rem;
+} 
+
+.service-content .col-md-8 .title h1::before{
+	content: "";
+	padding: 5rem .5rem;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	background: #ffb400;
+}
+
+.service-content .col-md-8 .title p{
+	font-size: 2.3rem;
+}
+
+.service-content .col-md-8 .view-butn{
+	padding-top: 4rem;
+}
+
+.service-content .col-md-8 .view-butn a{
+	padding: 2rem 3rem;
+	background: #ffb400;
+	color: white;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: .2rem;
+}
+
+
+.service-content .col-md-4{
+	padding: 8rem 5rem;
+}
+
+.service-content .col-md-4 .title{
+	padding: 1.5rem 0rem;
+}
+
+.service-content .col-md-4 .title h3{
+	color: #ffb400;
+	font-weight: 800;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.service-content .col-md-4 .what-we-do{
+	display: inline-flex;
+	padding: 1rem 0;
+}
+
+.service-content .col-md-4 .what-we-do img{
+	width: 7rem;
+	height: 6.5rem;
+}
+
+.service-content .col-md-4 .what-we-do .content{
+	color: white;
+	padding: 0;
+	padding-left: 1rem;
+}
+
+.service-content .col-md-4 .what-we-do .content h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-bottom: 1.4rem;
+}
+
+.service-content .col-md-4 .what-we-do .content p{
+	color: white;
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
+/*service-content css end*/
+
+
+
+
+
+
+/*service-intro css start*/
+.service-intro{
+	padding: 7rem;
+	background: #f5f5f5;
+}
+
+.service-intro .container{}
+
+.service-intro .row{}
+
+.service-intro .col-md-6{
+	padding: 4rem;
+}
+
+.service-intro .col-md-6 .text{}
+
+.service-intro .col-md-6 .text p{
+	color: grey;
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
+/*service-intro css end*/
+
+
+
+
+
+/*service-process css start*/
+.service-process{
+	background: #212121f2;
+}
+
+.service-process .row{}
+
+.service-process .col-md-4{
+	color: white;
+}
+
+.service-process .col-md-4 .about-it{
+	padding: 3.5rem;
+}
+
+.service-process .col-md-4 .about-it .title{}
+
+.service-process .col-md-4 .about-it .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 4rem;
+	position: relative;
+	padding: 3.5rem 0;
+}
+
+.service-process .col-md-4 .about-it .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ffb400;
+}
+
+.service-process .col-md-4 .about-it .text{
+	padding: 4rem 0;
+}
+
+.service-process .col-md-4 .about-it .text p{
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
+
+.service-process .col-md-4 .about-it .text ul{
+	padding: 0rem 1.7rem;
+	font-size: 1.7rem;
+}
+
+.service-process .col-md-4 .about-it .text ul li{}
+
+.service-process .col-md-8{
+	padding: 0;
+}
+
+.service-process .col-md-8 .content{
+	margin-bottom: 10rem;
+}
+
+.service-process .col-md-8 .content .video{
+	o=padding: 0;
+}
+
+.service-process .col-md-8 .content iframe{
+	width: 100%;
+	height: 45rem;
+}
+
+.service-process .col-md-8 .call-form{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-process .col-md-8 .call-form .link{
+	width: 50%;
+	height: 15rem;
+	text-align: center;
+	padding: 6.2rem;
+}
+
+.service-process .col-md-8 .call-form .call-link{
+	background: #ffb400;
+	padding: 3.5rem;
+	width: 100%;
+}
+
+.service-process .col-md-8 .call-form .call-link h2{
+	font-weight: 800;
+	font-size: 3rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.service-process .col-md-8 .call-form .call-link h3{
+	font-weight: 600;
+	font-size: 3rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.service-process .col-md-8 .call-form .form-link{
+	background: white;
+	width: 100%;
+}
+
+.service-process .col-md-8 .call-form .form-link a{
+	text-decoration: none;
+	color: black;
+	background: transparent;
+	border: .5rem solid black;
+	padding: 1.5rem 2rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;		
+}
+
+.service-process .col-md-8 .call-form .form-link a:hover{
+	color: white;
+	background: black;	
+}
+/*service-process css end*/
+
+
+
+
+
+
+/*service-related-projects css start*/
+.service-latest-projects{
+	padding: 5.5rem 0;
+	background: #f5f5f5;
+}
+
+.service-latest-projects .container{
+	width: 80%;
+}
+
+.service-latest-projects .row{}
+
+.service-latest-projects .col-md-12{}
+
+.service-latest-projects .col-md-12 .title{}
+
+.service-latest-projects .col-md-12 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	position: relative;
+	text-align: center;
+	font-size: 4rem;
+	padding: 3.5rem 0;
+}
+
+.service-latest-projects .col-md-12 .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 47%;
+	background: #ffb400;
+}
+
+.service-latest-projects .col-md-4{}
+
+.service-latest-projects .col-md-4 .content{
+	padding: 3.5rem 0;
+}
+
+.service-latest-projects .col-md-4 .content img{
+	width: 100%;
+	box-shadow: 0rem 0.5rem 1rem 0.1rem #7575758c;
+}
+
+
+.service-latest-projects .col-md-4 .content-txt{
+	border: .1rem solid #dfdfdf;
+	padding: 2.5rem;
+	margin: 2rem 0;
+}
+
+.service-latest-projects .col-md-4 .content-txt h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 700;
+	margin-bottom: 0;
+	font-size: 1.7rem;
+}
+
+.service-latest-projects .col-md-4 .content-txt p{
+	color: grey;
+	line-height: 3rem;
+	font-size: 1.7rem;
+	margin: 1rem 0;
+}
+
+.service-latest-projects .col-md-4 .project-butn{
+    margin: 3rem 0;
+}
+
+.service-latest-projects .col-md-4 .project-butn a{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	text-decoration: none;
+	padding: .8rem 2rem;
+	background: transparent;
+	border: .3rem solid #dfdfdf;
+	color: #666666;
+	font-size: 1.2rem;
+	font-weight: 600;
+	letter-spacing: .1rem;
+}
+
+
+.service-latest-projects .col-md-12 .view-all-butn{
+	text-align: center;
+	margin: 4rem;
+}
+
+.service-latest-projects .col-md-12 .view-all-butn a{
+	text-decoration: none;
+	color: black;
+	background: transparent;
+	border: .5rem solid black;
+	padding: 1.5rem 2rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;	
+}
+
+.service-latest-projects .col-md-12 .view-all-butn a:hover{
+	color: white;
+	background: black;	
+}
+/*service-related-projects css end*/
+
+
+
+
+
+
+
+
+/* service-questions css start*/
+.service-questions{
+	background: #f5f5f5;
+	padding: 5rem 0rem;
+}
+
+.service-questions .container{}
+
+.service-questions .row{}
+
+.service-questions .col-md-5{}
+
+.service-questions .col-md-5 .content{
+	padding: 4rem;
+}
+
+.service-questions .col-md-5 .content .title{}
+
+.service-questions .col-md-5 .content .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 4rem;
+	position: relative;
+	padding: 3.5rem 0;
+}
+
+.service-questions .col-md-5 .content .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ffb400;
+}
+
+.service-questions .col-md-5 .content .text{
+	padding-top: .3em;
+}
+
+.service-questions .col-md-5 .content .text p{
+	color: grey;
+	margin: 5rem 0;
+	line-height: 3rem;
+	font-size: 1.7rem;
+}
+
+.service-questions .col-md-5 .content .question-butn{
+	padding: .2em 0;
+}
+
+.service-questions .col-md-5 .content .question-butn a{
+	text-decoration: none;
+	color: #ffb400;
+	background: transparent;
+	border: .5rem solid #ffb400;
+	padding: 1.5rem 2rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;
+}
+
+.service-questions .col-md-5 .content .question-butn a:hover{
+	color: white;
+	background: #ffb400;
+	border: .5rem solid #ffb400;
+}
+/* service-questions css end*/
+
+/* SERVICE CSS END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PROTFOLIO CSS START*/
+
+/*protfolio-content css start*/
+.protfolio-content{
+	background: url(../images/gallery/protfolio-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.protfolio-content .protfolio-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.protfolio-content .row{
+	padding: 5rem 0;
+}
+
+.protfolio-content .row .col-md-8{}
+
+.protfolio-content .col-md-8 .title{
+	color: white;
+	padding: 7rem 5.5rem;
+}
+
+.protfolio-content .col-md-8 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding: 3rem;
+} 
+
+.protfolio-content .col-md-8 .title h1::before{
+	content: "";
+	padding: 7rem .5rem;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	background: #ffb400;
+}
+
+.protfolio-content .col-md-8 .title p{
+	font-size: 2.3rem;
+}
+/*protfolio-content css end*/
+
+
+
+
+
+
+/*protfolio-projects css start*/
+.protfolio-projects{
+	padding: 5.5rem 0;
+	background: #f5f5f5;
+}
+
+.protfolio-projects .container{
+	width: 80%;
+}
+
+.protfolio-projects .row{}
+
+.protfolio-projects .col-md-4{}
+
+.protfolio-projects .col-md-4 .content{
+}
+
+.protfolio-projects .col-md-4 .content img{
+	width: 100%;
+	box-shadow: 0rem 0.5rem 1rem 0.1rem #7575758c;
+}
+
+
+.protfolio-projects .col-md-4 .content-txt{
+	border: .1rem solid #dfdfdf;
+	padding: 2.5rem;
+	margin: 2rem 0;
+}
+
+.protfolio-projects .col-md-4 .content-txt h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.protfolio-projects .col-md-4 .content-txt p{
+	color: grey;
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
+
+.protfolio-projects .col-md-4 .project-butn{
+    margin: 3rem 0;
+}
+
+.protfolio-projects .col-md-4 .project-butn a{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	text-decoration: none;
+	padding: .8rem 2rem;
+	background: transparent;
+	border: .3rem solid #dfdfdf;
+	color: #666666;
+	font-size: 1.2rem;
+	font-weight: 600;
+	letter-spacing: .1rem;
+}
+/*protfolio-projects css end*/
+
+
+
+
+
+
+
+
+/* protfolio-query css start*/
+.protfolio-query{
+	background: #ffb400;
+	padding: 8.3rem 0rem;
+}
+
+.protfolio-query .container{}
+
+.protfolio-query .row{}
+
+.protfolio-query .col-md-12{}
+
+.protfolio-query .col-md-12 .title{
+	text-align: center;
+}
+
+.protfolio-query .col-md-12 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 5rem;
+	letter-spacing: .1rem;
+	color: #212121f2;
+}
+/* protfolio-query css end*/
+
+/*PROTFOLIO CSS END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BLOG CSS START */
+
+/* blog-content css start*/
+.blog-content{
+	background: url(../images/gallery/blog-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.blog-content .blog-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.blog-content .row{
+	padding: 2rem 0;
+}
+
+.blog-content .row .col-md-8{}
+
+.blog-content .col-md-8 .title{
+	color: white;
+	padding: 7rem 6rem;
+}
+
+.blog-content .col-md-8 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding: 3rem;
+} 
+
+.blog-content .col-md-8 .title h1::before{
+	content: "";
+	padding: 4.5rem .5rem;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	background: #ffb400;
+}
+/* blog-content css end*/
+
+
+
+
+
+
+
+
+
+
+
+/*blog-moments css start*/
+.blog-moments{
+	background: #f5f5f5;
+	padding: 8rem 0rem;
+}
+
+.blog-moments .container{
+	width: 80%;
+}
+
+.blog-moments .row{
+}
+
+.blog-moments .col-md-4{
+}
+
+.blog-moments .col-md-4 .content{
+	background: white;
+	margin: 1rem 0rem;
+}
+
+.blog-moments .col-md-4 .content img{
+	width: 100%;
+}
+
+.blog-moments .col-md-4 .text{
+	padding: 3rem;
+}
+
+.blog-moments .col-md-4 .text h6{
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+.blog-moments .col-md-4 .text span{
+	color: #bdbdbda8;
+	font-size: 1.4rem;
+}
+
+.blog-moments .col-md-4 .text p{
+	color: grey;
+	line-height: 2.5rem;
+	margin-bottom: .5rem;
+	font-size: 1.7rem;
+}
+/*blog-moments css end*/
+
+
+
+
+
+
+/*blog-contact css start*/
+.contact .form-content{}
+
+.contact .form-content form{}
+
+.contact .form-content form .filling-up{
+	padding: 0;
+}
+
+.contact .form-content form .filling-up input{
+	padding: 1rem;
+	border: none;
+	margin: .7rem;
+	height: 6rem;
+	font-size: 1.5rem;
+	width: 100%;
+}
+
+.contact .form-content form .filling-up input[type-"text"]{
+}
+
+.contact .subscribe-butn{
+	padding-left: .7rem;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+}
+
+.contact .subscribe-butn a{
+	text-decoration: none;
+	color: white;
+	background: transparent;
+	border: .5rem solid white;
+	padding: 1rem 3rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;
+}
+/*blog-contact css end*/
+
+/* BLOG CSS END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROJECT CSS START*/
+
+/*project-content css start*/
+.project-content{
+	background: url(../images/gallery/project-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.project-content .project-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.project-content .row{
+	padding: 6rem 0;
+}
+
+.project-content .row .col-md-8{}
+
+.project-content .col-md-8 .title{
+	color: white;
+	padding: 6rem 5.5rem;
+}
+
+.project-content .col-md-8 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding: 3rem;
+} 
+
+.project-content .col-md-8 .title h1::before{
+	content: "";
+	padding: 7rem .5rem;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	background: #ffb400;
+}
+
+.project-content .col-md-8 .title p{
+	font-size: 2.3rem;
+}
+
+.project-content .col-md-4{
+	padding: 7.5rem 2rem;
+}
+
+.project-content .col-md-4 .text{
+	padding: 1.5rem 0rem;
+}
+
+.project-content .col-md-4 .text p{
+	color: white;
+	margin-bottom: .5rem;
+	font-size: 1.7rem;
+	font-weight: 600;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+/*project-content css end*/
+
+
+
+
+
+
+/* project-about css start*/
+.project-about{
+	background: #f5f5f5;
+	padding: 8rem 1rem;
+}
+
+.project-about .container{
+	width: 84%;
+}
+
+.project-about .row{
+	padding: 2rem 0rem;
+}
+
+.project-about .col-md-6 .content{}
+
+.project-about .col-md-6 .content .title{
+	padding-bottom: 2rem;
+}
+
+.project-about .col-md-6 .content h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	position: relative;
+	font-size: 4rem;
+	padding-bottom: 3.5rem;
+}
+
+.project-about .col-md-6 .content h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ffb400;
+}
+
+.project-about .col-md-6 .content .text{
+	color: grey;
+}
+
+.project-about .col-md-6 .content .text p{
+	font-size: 1.7rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.project-about .col-md-6 .content .text ul{
+	padding: 0rem 2rem;
+}
+
+.project-about .col-md-6 .content .text ul li{font-size: 1.7rem;}
+
+.project-about .col-md-6 .image img{
+	width: 100%;
+}
+
+.project-about .col-md-12 .image img{
+	width: 100%;
+}
+/* project-about css end*/
+
+/* PROJECT CSS END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LANDING CSS START*/
+
+/*landing-content css start*/
+.landing-content{
+	background: url(../images/gallery/landing-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.landing-content .landing-content-bg{
+	background: linear-gradient(180deg,#282828c9, #282828db);
+}
+
+.landing-content .row{}
+
+.landing-content .col-md-8{}
+
+.landing-content .col-md-8 .title{
+	color: white;
+	padding: 10.2rem;
+}
+
+.landing-content .col-md-8 .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding: 3rem;
+} 
+
+.landing-content .col-md-8 .title h1::before{
+	content: "";
+	padding: 4.5rem .5rem;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	background: #ffb400;
+}
+
+.landing-content .col-md-8 .title p{
+	font-size: 2.3rem;
+}
+
+.landing-content .col-md-8 .view-butn{
+	padding-top: 6rem;
+}
+
+.landing-content .col-md-8 .view-butn a{
+	padding: 2rem 3rem;
+    background: #ffb400;
+    color: white;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: .2rem;
+}
+
+.landing-content .col-md-4{
+	background: #ffb400;
+	padding-bottom: 4rem;
+}
+
+.landing-content .col-md-4 .title{
+	padding: 5rem 2.5rem;
+}
+
+.landing-content .col-md-4 .title h3{
+	font-weight: 800;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	padding: 2rem 0;
+	font-size: 3rem;
+	padding-top: 3.5rem;
+}
+
+.landing-content .col-md-4 .content{
+	display: inline-flex;
+	padding: 2rem 0;
+}
+
+.landing-content .col-md-4 .content img{
+	width: 7rem;
+	height: 6.5rem;
+}
+
+.landing-content .col-md-4 .content-txt{
+	padding: 0rem 1.5rem;
+}
+
+.landing-content .col-md-4 .content-txt h6{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.landing-content .col-md-4 .content-txt p{
+	color: white;
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
+/*landing-content css start*/
+
+
+
+
+
+
+
+
+/*landing-process css start*/
+.landing-process{
+	background: #212121f2;
+}
+
+.landing-process .row{}
+
+.landing-process .col-md-4{
+	color: white;
+}
+
+.landing-process .col-md-4 .about-it{
+	padding: 2.5rem;
+}
+
+.landing-process .col-md-4 .about-it .title{}
+
+.landing-process .col-md-4 .about-it .title h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	position: relative;
+	font-size: 5rem;
+	padding: 3.5rem 0;
+}
+
+.landing-process .col-md-4 .about-it .title h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ffb400;
+}
+
+.landing-process .col-md-4 .about-it .text{
+	padding: 4rem 0;
+}
+
+.landing-process .col-md-4 .about-it .text p{
+	font-size: 1.7rem;
+	line-height: 3rem;
+	font-size: 1.7rem;
+}
+
+
+.landing-process .col-md-4 .about-it .about-butn{
+	padding-bottom: 5rem;
+}
+
+.landing-process .col-md-4 .about-it .about-butn a{
+	text-decoration: none;
+	color: #ffb400;
+	background: transparent;
+	border: .5rem solid #ffb400;
+	padding: 1.5rem 2rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;	
+}
+
+.landing-process .col-md-4 .about-it .about-butn a:hover{
+	color: white;
+	background: #ffb400;
+}
+
+.landing-process .col-md-8 .content .video{
+	padding: 0;
+}
+
+.landing-process .col-md-8 .content iframe{
+	width: 100%;
+	height: 45rem;
+}
+
+
+.landing-process .col-md-8 .call-form{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-process .col-md-8 .call-form .link{
+	width: 50%;
+	height: 15rem;
+	text-align: center;
+	padding: 6.2rem;
+}
+
+.landing-process .col-md-8 .call-form .call-link{
+	background: #ffb400;
+	padding: 3.5rem;
+	width: 100%;
+}
+
+.landing-process .col-md-8 .call-form .call-link h2{
+	font-weight: 800;
+	font-size: 3rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.landing-process .col-md-8 .call-form .call-link h3{
+	font-weight: 600;
+	font-size: 3rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.landing-process .col-md-8 .call-form .form-link{
+	background: white;
+	width: 100%;
+}
+
+.landing-process .col-md-8 .call-form .form-link a{
+	text-decoration: none;
+	color: black;
+	background: transparent;
+	border: .5rem solid black;
+	padding: 1.5rem 2rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;	
+}
+
+.landing-process .col-md-8 .call-form .form-link a:hover{
+	color: white;
+	background: black;	
+}
+/*landing-process css end*/
+
+
+
+
+
+/* landing-about css start*/
+.landing-about{
+   background: #f5f5f5;
+}
+
+.landing-about .row{}
+
+.landing-about .col-md-4{
+	padding: 0;
+	background: url(../images/gallery/landing-about.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.landing-about .col-md-8{}
+
+.landing-about .col-md-8 .content{
+	padding: 6rem;
+}
+
+.landing-about .col-md-8 .content h1{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 800;
+	font-size: 5rem;
+	padding: 4rem 0;
+	position: relative;
+}
+
+.landing-about .col-md-8 .content h1::after{
+	content: "";
+	padding: .3rem 2.7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ffb400;
+}
+
+.landing-about .col-md-8 .text{
+	padding: 3rem 0;
+}
+
+.landing-about .col-md-8 .text p{
+	color: grey;
+	line-height: 3rem;
+	font-size: 1.7rem;
+}
+
+.landing-about .col-md-8 .learn-butn{
+	padding: 3.2rem 0;
+}
+
+.landing-about .col-md-8 .learn-butn a{
+	text-decoration: none;
+	color: black;
+	background: transparent;
+	border: .5rem solid black;
+	padding: 1.5rem 2rem;
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: .3rem;	
+}
+
+.landing-about .col-md-8 .learn-butn a:hover{
+	color: white;
+	background: black;
+}
+
+.landing-about .col-md-8 .last-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-about .col-md-8 .last-content{
+	box-shadow: 0rem 1.5rem 1.0rem .2rem #8080801f;
+}
+
+.landing-about .col-md-8 .the-best-number{
+	width: 50%;
+	height: 15rem;
+	text-align: center;
+	padding: 2rem;
+}
+
+.landing-about .col-md-8 .the-best-number-one{
+	background: #ffb400;
+}
+
+.landing-about .col-md-8 .the-best-number-two{
+	background: #212121f2;
+	color: white;
+}
+
+.landing-about .col-md-8 .the-best-number h2{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    margin: 2rem;
+    line-height: 2.5rem;
+}
+
+.landing-about .col-md-8 .the-best-number p{
+	font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+}
+/* landing-about css end*/
+
+/* LANDING CSS END*/
